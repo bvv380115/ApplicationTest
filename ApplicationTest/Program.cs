@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,17 @@ namespace testprog
         }
 
 
+        public int method2()
+        {
 
+            int x2 = 0;
+
+            int a = 10, b = 10, c = 10;
+
+            x2 = a + b + c;
+
+            return x2;
+        }
 
         static void Main(string[] args)
         {
@@ -31,7 +41,11 @@ namespace testprog
 
             Console.WriteLine("x1 = " + x1.method1());
 
-         
+            Program x2 = new Program();
+
+            Console.WriteLine("x2 = " + x2.method2());
+
+
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
