@@ -34,6 +34,20 @@ namespace testprog
             return x2;
         }
 
+
+        public int method3()
+        {
+
+            int x3 = 0;
+
+            int a = 10, b = 10, c = 10, d = 10;
+
+            x3 = a + b + c + d;
+
+            return x3;
+        }
+
+
         static void Main(string[] args)
         {
 
@@ -44,6 +58,10 @@ namespace testprog
             Program x2 = new Program();
 
             Console.WriteLine("x2 = " + x2.method2());
+
+            Program x3 = new Program();
+
+            Console.WriteLine("x3 = " + x3.method3());
 
 
             Console.WriteLine("Press any key to exit.");
