@@ -12,7 +12,7 @@ namespace testprog
         public int method1()
         {
 
-            int x1 = 0;
+            int x1;
 
             int a = 10, b = 10;
 
